@@ -1,0 +1,88 @@
+body{
+	background-color: #000000;
+	color: lightgray;
+	font-size: 28px;
+	font-family: 'Fira Mono', monospace;
+	font-weight: 700;
+}
+
+#container{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#password{
+	width: 900px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 48px;
+	min-height: 60px;
+	letter-spacing: 3px;
+	color: white;
+}
+
+#hangman{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 450px;
+	text-align: center;
+	min-height: 280px;
+}
+
+#alphabet{
+	margin-left: auto;
+	margin-right: auto;
+	width: 730px;
+	height: 450px;
+	text-align: center;
+	max-height: 60px;
+}
+
+.letter{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	border: 3px solid gray;
+	border-radius: 15px;
+	float: left;
+}
+
+.default{
+	cursor: pointer;
+}
+
+.default:hover{
+	background-color: #222222;
+	color: white;
+	border: 3px solid white;
+}
+
+.guessed{
+	background-color: #003300;
+	color: #BADA55;
+	border: 3px solid #BADA55;
+	cursor: default;
+}
+
+.wrong{
+	background-color: #330000;
+	color: #B00B55;
+	border: 3px solid #B00B55;
+	cursor: default;
+}
+
+.reset{
+	color: green;
+	cursor: pointer;
+	font-size: 48px;
+}
+
+.reset:hover{
+	color: white;
+}
